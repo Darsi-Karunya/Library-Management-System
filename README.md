@@ -1,52 +1,70 @@
 # Library Management System
 
-A DBMS mini project developed using MySQL and MySQL Workbench 8.0 CE. This project manages library members, books, suppliers, fine details, and book issue records using relational tables.
+## Project Overview
+
+The Library Management System is a DBMS mini project developed using MySQL and MySQL Workbench 8.0 CE. It is designed to manage library members, books, suppliers, fine details, and book issue records using a relational database.
+
+The project demonstrates how related tables can be used to store and retrieve library information efficiently through SQL queries.
 
 ## Features
 
-- Member management
-- Book management
-- Supplier details
-- Fine management
-- Book issue and return records
-- Primary and foreign key relationships
-- SQL-based data retrieval
-- Filtering and pattern matching
-- Aggregate functions and grouping
-- Joins between related tables
+- Manage library member details
+- Manage book details
+- Store supplier information
+- Maintain fine details
+- Track book issue and return records
+- Use primary and foreign key relationships
+- Retrieve data using SQL queries
+- Filter records using WHERE conditions
+- Perform pattern matching using LIKE
+- Use aggregate functions such as COUNT
+- Group records using GROUP BY
+- Join related tables using JOIN
 
-## Database Tables
-
-- `lms_members`
-- `lms_suppliers_details`
-- `lms_fine_details`
-- `lms_book_details`
-- `lms_book_issue`
-
-## SQL Concepts Used
-
-- `CREATE DATABASE`
-- `CREATE TABLE`
-- `INSERT`
-- `SELECT`
-- `WHERE`
-- `LIKE`
-- `COUNT`
-- `GROUP BY`
-- `JOIN`
-- Primary Keys
-- Foreign Keys
-
-## Technologies Used
+## Tech Stack
 
 - MySQL
 - MySQL Workbench 8.0 CE
 - SQL
 
-## Project Overview
+## Database Tables
 
-The Library Management System demonstrates how a relational database can be used to store and retrieve library-related information efficiently. The project contains sample records and SQL queries for retrieving information about members, books, book issues, publications, categories, and membership status.
+The project contains the following tables:
 
-## Author
+1. `lms_members`
+2. `lms_suppliers_details`
+3. `lms_fine_details`
+4. `lms_book_details`
+5. `lms_book_issue`
 
-**Karunya Darsi**
+## Database Concepts Used
+
+- Database and table creation
+- Primary Keys
+- Foreign Keys
+- Data insertion
+- SELECT statements
+- WHERE clause
+- LIKE operator
+- COUNT function
+- GROUP BY
+- JOIN operations
+- Data filtering and retrieval
+
+## Setup and Run
+
+### 1. Install MySQL
+
+Install MySQL Server and MySQL Workbench 8.0 CE.
+
+### 2. Open MySQL Workbench
+
+Open MySQL Workbench and connect to the MySQL server.
+
+### 3. Create the Database
+
+Run the SQL script provided in this repository.
+
+```sql
+create database library_management;
+use library_management;
